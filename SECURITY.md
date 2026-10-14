@@ -1,7 +1,7 @@
 # Security
 
 To report a vulnerability in Procket, email
-[security@procket.dev](mailto:security@procket.dev). Please do not open a
+[rory@borrowd.co.uk](mailto:rory@borrowd.co.uk). Please do not open a
 public issue.
 
 We will acknowledge your report, keep you updated, and not take action against

@@ -59,7 +59,7 @@ installing anything.
 
 ## Help
 
-- Questions and problems: [hello@procket.dev](mailto:hello@procket.dev)
+- Questions and problems: [rory@borrowd.co.uk](mailto:rory@borrowd.co.uk)
 - Security issues: see [SECURITY.md](SECURITY.md). Please do not open a public issue.
 
 ## Licence
