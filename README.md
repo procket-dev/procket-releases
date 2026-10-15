@@ -1,6 +1,6 @@
 # Procket releases
 
-Signed builds of the Procket client for macOS, Windows and Linux.
+Builds of the Procket client for macOS, Windows and Linux.
 
 [Procket](https://procket.dev) records the prompts engineers send to their AI
 coding tools, ties them to the commits those prompts produced, and shows them on
@@ -22,8 +22,8 @@ page is also published at `https://get.procket.dev/<version>/`.
 | Windows (Chocolatey) | `choco install procket` |
 
 Then run `procket setup`. The [install guide](https://procket.dev/install) has
-the details, including signed MSI and pkg installers for Intune, Jamf and
-similar tools, deb and rpm packages, and the dev container feature.
+the details, including MSI and pkg installers for Intune, Jamf and similar
+tools, and deb and rpm packages.
 
 ## What each release contains
 
@@ -39,8 +39,9 @@ similar tools, deb and rpm packages, and the dev container feature.
 | `*.release.sig` | The Procket release key's signature, which `procket update` checks |
 | `*.sbom.json` | Software bill of materials for each archive |
 
-Windows binaries and installers are Authenticode-signed. macOS binaries and the
-pkg are signed with a Developer ID and notarised by Apple.
+Every release's checksums are signed with Sigstore and with the Procket release
+key, which `procket update` checks before installing anything. The binaries and
+installers are not yet code-signed for Windows or notarised for macOS.
 
 ## Verify a download
 
